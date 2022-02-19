@@ -106,6 +106,108 @@ nav .navigation ul li a:hover {
     letter-spacing: 1px;
 }
 
+/* content section */
+
+section {
+    position: relative;
+    height: 450px;
+    /* width: 1075px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .card .image {
+    height: 140px;
+    width: 140px;
+    border-radius: 15px;
+    padding: 2px;
+    color: black;
+    background: linear-gradient(90deg, rgba(203,155,81,1) 0%, rgba(246,226,122,1) 80%, rgba(246,242,192,1) 100%);
+}
+
+section .card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.card {
+    position: relative;
+    background: whitesmoke;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    color: black;
+    background: linear-gradient(90deg, rgba(246,242,192,1) 0%, rgba(246,226,122,1) 20%, rgba(203,155,81,1) 100%);
+    border-radius: 15px 15px 0 0;
+}
+
+.card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.card .book-names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+.book-names .name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.book-names .dis {
+    font-size: 15px;
+    font-weight: 500px;
+}
+
+.card .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.card .rating i {
+    font-size: 18px;
+    color: #FDC93B;
+    margin: 0 2px;
+}
+
+.card .button button {
+    background: linear-gradient(90deg, rgba(203,155,81,1) 0%, rgba(246,226,122,1) 80%, rgba(246,242,192,1) 100%);
+    outline: none;
+    border: none;
+    color: white;
+    padding: 8px 22px;
+    margin-top: 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.9s ease;
+    cursor: pointer;
+}
+
+.card .button button:hover {
+    color: black;
+    background: linear-gradient(90deg, rgba(246,242,192,1) 0%, rgba(246,226,122,1) 20%, rgba(203,155,81,1) 100%);
+}
+
 @media (max-width: 769px) {
     nav {
         padding: 15px 20px;
