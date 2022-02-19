@@ -117,6 +117,10 @@ section {
     justify-content: center;
 }
 
+.swiper {
+    width: 950px;
+}
+
 section .card .image {
     height: 140px;
     width: 140px;
@@ -206,6 +210,24 @@ section .card .image img {
 .card .button button:hover {
     color: black;
     background: linear-gradient(90deg, rgba(246,242,192,1) 0%, rgba(246,226,122,1) 20%, rgba(203,155,81,1) 100%);
+}
+
+.swiper-pagination-bullet {
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(246,242,192,1) 0%, rgba(246,226,122,1) 20%, rgba(203,155,81,1) 100%);
+}
+
+.swiper-button-next, .swiper-button-prev {
+    opacity: 0.5;
+    color: #FDC93B;
+    transition: 0.5s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    opacity: 1;
+    color: #FDC93B;
 }
 
 @media (max-width: 769px) {
