@@ -274,4 +274,8 @@ section .card .image img {
     nav .navigation ul li a {
         color: white;
     }
+
+    #contents {
+        padding: 8vw 4vw 0 4vw;
+    }
 }
