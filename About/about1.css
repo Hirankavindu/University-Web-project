@@ -78,3 +78,33 @@ header .navigation .navigation-items a{
     font-size: 2.2rem;
     letter-spacing: 1px;
 }
+
+#about-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8vw 8vw 2vw 8vw;    
+}
+
+#about-container .about-img{
+    width: 60%;
+    padding-right: 50px;    
+}
+
+#about-container .about-img img{
+    width: 100%;   
+}
+
+#about-container .about-text{
+    width: 40%;
+}
+
+#about-container .about-text h2{
+    color: #292828;
+    padding-bottom: 30px;
+}
+
+#about-container .about-text p{
+    color: #5f5d5d;
+    font-weight: 200;    
+}
