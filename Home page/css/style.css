@@ -20,7 +20,7 @@ header{
 
 header .brand{
     color: #fff;
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: 700;
     padding-left: 50px;
     padding-top: 10px;
@@ -37,7 +37,7 @@ header .navigation .navigation-items a{
      position: relative;
      color: #fff;
      text-decoration: none;
-     font-size: 1em;
+     font-size: 1.3em;
      font-weight: 500;
      margin-left: 30px;
      transition: 0.3s ease;
@@ -112,6 +112,7 @@ header .navigation .navigation-items a{
 
 .home .content p{
     margin-bottom: 65px;
+    font-size: 20px;
 }
 
 .home .content a{
