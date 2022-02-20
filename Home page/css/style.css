@@ -359,7 +359,7 @@ header .navigation .navigation-items a{
   }
   
   .manual-btn{
-    border: 2px solid #40D3DC;
+    border: 2px solid #ffffff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -371,7 +371,7 @@ header .navigation .navigation-items a{
   }
   
   .manual-btn:hover{
-    background: #40D3DC;
+    background: #ffffff;
   }
   
   #radio1:checked ~ .first{
@@ -401,7 +401,7 @@ header .navigation .navigation-items a{
   }
   
   .navigation-auto div{
-    border: 2px solid #40D3DC;
+    border: 2px solid #ffffff;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -412,19 +412,19 @@ header .navigation .navigation-items a{
   }
   
   #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #40D3DC;
+    background: #ffffff;
   }
   
   #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #40D3DC;
+    background: #ffffff;
   }
   
   #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #40D3DC;
+    background: #ffffff;
   }
   
   #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #40D3DC;
+    background: #ffffff;
   }
 
   /*Introduction*/

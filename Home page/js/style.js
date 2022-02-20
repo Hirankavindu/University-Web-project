@@ -48,3 +48,11 @@ btns.forEach((btn,i) => {
       counter = 1;
     }
   }, 5000);
+
+  //Latest Books
+$(".slider").owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout: 2000, //2000ms = 2s;
+    autoplayHoverPause: true,
+   });
