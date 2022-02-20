@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Donation/donation.css">
+    <title>Donation</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="img">
+            <img src="Logo.svg">
+            <h2>DONATION FORM</h2>
+            <hr>
+        </div>
+
+        <form method="post" class="formD">
+            
+            <div class="user-name">
+                    
+                    <div class="dname">
+                        
+                    <div class="input-box">
+                        <h3>Donor Name</h3>
+                        
+                        <input type="text" placeholder="Enter First Name" required>
+                    </div>
+
+                    <div class="input-box1">
+                        
+                        <input type="text" placeholder="Enter Last Name" required>
+                    </div>
+                    </div>
+                
+                    <div class="input-box">
+                        <h3>Type Of Donation</h3>
+                        <select name="donation" id="donationID">
+                            <option value="cash">Cash</option>
+                            <option value="product">Product/Item</option>
+                            <option value="service">Service</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <h3>Amount</h3>
+                        <input type="text" placeholder="Enter amount" required>
+                    </div>
+               
+
+                
+                <div class="input-box">
+                    <h3>Donor Notes</h3>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            
+             
+                <div class="input-box">
+                    <h3>Company Name</h3>
+                    <input type="text" placeholder="Enter company name" required>
+                </div>
+                
+                <div class="input-box">
+                    <h3>Email</h3>
+                    <input type="email" placeholder="Enter email" required>
+                </div>
+               
+
+             
+                <div class="input-box">
+                   <h3>Phone Number</h3>
+                    <input type="text" placeholder="(000) 000-0000" required>
+                </div>
+            
+
+            </div> 
+                <div class="input-box">
+                    <h3>Address</h3>
+                    <div class="line1">
+                        <input type="text" placeholder="Street Address">
+                    </div>
+                    <div class="line4">
+                        <input type="text" placeholder="Street Address Line 2">
+                    </div>
+                    <div class="line2">
+                        <input type="text" placeholder="City">
+                        <input type="text" placeholder="State / Province">
+                    </div>
+                    <div class="line3">
+                        <input type="text" placeholder="Postal / Zip Code">
+                    </div>
+                </div>
+            <hr>
+            <div class="button">
+                <button type="submit">Pay Now</button>
+            </div>
+        </form>
+</div>
+</body>
+</html>
