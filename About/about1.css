@@ -133,3 +133,37 @@ header .navigation .navigation-items a{
     color: #292828;
 }
 
+#features{
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+    
+}
+
+#features .fea-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+    grid-gap: 2rem;
+    margin-top: 60px;
+}
+
+#features .fea-box{
+    background-color: #f7f7f7;
+    text-align: start;
+    
+}
+
+
+#features .fea-box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(36, 36, 68);
+    padding: 13px 0 7px 0;
+
+}
+
+#features .fea-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(66, 66, 85);
+
+}
