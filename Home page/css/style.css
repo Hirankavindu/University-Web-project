@@ -426,4 +426,51 @@ header .navigation .navigation-items a{
   #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40D3DC;
   }
+
+  /*Introduction*/
+  .Intro h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 50px;
+}
+.Intro p{
+    padding-top: 50px;
+    padding: 20px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.Intro h4{
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 19px;
+   text-align: right;
+   margin-right: 35px;
+}
+.Intro .logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 365px;
+    margin-bottom: -40px;
+    margin-top: 30px;
+}
+.Intro .btn-Intro{
+    background: #f30606;
+    border-radius: 0%;
+    border: none;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: antiquewhite;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 650px;
+    margin-top: 10px;
+    
+}
+.Intro .btn-Intro:hover
+{
+    background-color: #0e0202;
+}
+
   
