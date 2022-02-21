@@ -142,28 +142,56 @@ header .navigation .navigation-items a{
 #features .fea-base{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
-    grid-gap: 2rem;
-    margin-top: 60px;
+    grid-gap: 3rem;
+    margin-top: 20px;
+    
 }
 
-#features .fea-box{
-    background-color: #f7f7f7;
-    text-align: start;
+#features .fea-card{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+    display: flex;
     
 }
 
 
-#features .fea-box h2{
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: rgb(36, 36, 68);
+#features .fea-box{
+    text-align: start;
+    width: 300px;
+    margin: 20px;
+    height: 150px;
+    padding: 20px;
+    box-shadow: 20px 20px 50px rgba(3, 3, 3, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    position: relative;
+    
+}
+
+
+.features .fea-box h2{
+    font-size: 8em;
+    position: absolute;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.05);
     padding: 13px 0 7px 0;
+    top: -30px;
+    right: 30px;
+    pointer-events: none;
 
 }
 
-#features .fea-box p{
-    font-size: 1rem;
-    font-weight: 400;
-    color: rgb(66, 66, 85);
-
+.features .fea-box p{
+    text-align: justify;
+    font-size: 1em;
+    z-index: 1;
+    font-size: 1em;
+    font-weight: 300;
+    color: rgba(51, 51, 51, 0.05);
 }
