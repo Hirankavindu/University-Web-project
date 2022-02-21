@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background: #013244;
+}
+.container{
+	max-width: 700px;
+	width: 100%;
+	background: #013244;;
+	padding: 25px 30px;
+	border-radius: 5px;
+    z-index: 1;
+
+}
+.container .title{
+	color: #FFF;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+}
+.container .title::before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 3px;
+	width: 100px;
+	background: linear-gradient(135deg, #CCE5FF, #99FF99);	
+}
+.container form .user-details{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+}
+form .user-details .input-box .type-box{
+	background: #1a4657;
+    color: #f39f18;
+}
+.user-details .input-box .details{
+	color: #FFF;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.user-details .input-box input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	font-size: 16px;
+	border-color: 2px;
+	transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+	border-color:#9b59b6;
+}
+
+form input[type="radio"]{
+	display: none;
+}
+form .button{
+	height: 45px;
+	margin: 45px 0;
+}
+form .button input{
+	height: 100%;
+	width: 100%;
+	outline: none;
+	color: #FFF;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	background: #f39f18
+}
+form .button input:focus
+{
+    color: #f39f18;
+    background: #fff;
+}
+@media (max-width: 584px) {
+	.container{
+	 max-width: 100%;
+ }
+ form .user-details .input-box{
+	margin-bottom: 15px;
+	width: 100%
+ }
+ .container form .user-details{
+	max-height: 300px;
+	overflow-y: scroll;
+ }
+ .user-details::-webkit-scrollbar{
+	width: 0;
+ }
+}
+.box-area
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box-area li
+{
+    position: absolute;
+    display: block;
+    list-style: none;
+    bottom: -150px;
+    animation: animated 20s linear infinite;
+
+}
+@keyframes animated
+{
+    0%
+    {
+        transform:  translateY(0) rotate(0deg);
+    }
+    100%
+    {
+        transform:  translateY(-880px) rotate(360deg);
+    }
+}
+.box-area li:nth-child(1)
+{
+    left: 10%;
+    font-size: 20px;
+    color: #1a4657;
+    animation-delay: 0s;
+}
+.box-area li:nth-child(3)
+{
+    left: 26%;
+    font-size: 30px;
+    color: #1a4657;
+    animation-delay: 5s;
+}
+.box-area li:nth-child(5)
+{
+    left: 50%;
+    font-size: 25px;
+    color: #1a4657;
+    animation-delay: 2s;
+}
+.box-area li:nth-child(7)
+{
+    left: 60%;
+    font-size: 45px;
+    color: #1a4657;
+    animation-delay: 4.5s;
+}
+.box-area li:nth-child(9)
+{
+    left: 80%;
+    font-size: 30px;
+    color: #1a4657;
+    animation-delay: 6s;
+}
+.box-area li:nth-child(2)
+{
+    left: 90%;
+    width: 30px;
+    height: 30px;
+    background: #1a4657;
+    border-radius: 50px;
+    animation-delay: 4.5s;
+    animation-direction: 10s;
+}
+
+.box-area li:nth-child(4)
+{
+    left: 73%;
+    width: 22px;
+    height: 22px;
+    background: #1a4657;
+    border-radius: 50px;
+    animation-delay: 15s;
+}
+
+.box-area li:nth-child(6)
+{
+    left: 47%;
+    width: 21px;
+    height: 21px;
+    background: #1a4657;
+    border-radius: 50px;
+    animation-delay: 3.8s;
+}
+
+.box-area li:nth-child(8)
+{
+    left: 38%;
+    width: 25px;
+    height: 25px;
+    background: #1a4657;
+    border-radius: 50px;
+    animation-delay: 16s;
+}
+
+.box-area li:nth-child(10)
+{
+    left: 19%;
+    width: 20px;
+    height: 20px;
+    background: #1a4657;
+    border-radius: 50px;
+    animation-delay: 1.2s;
+}

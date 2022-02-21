@@ -108,3 +108,116 @@ nav .navigation ul li a:hover {
     font-size: 2.2rem;
     letter-spacing: 1px;
 }
+
+/* contents */
+#contents {
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+
+#contents .con-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#contents .con {
+    text-align: start;
+    background: whitesmoke;
+    height: auto;
+    position: relative;
+}
+
+#contents .con img {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+#contents .con .details {
+    padding: 15px 15px 0 15px;
+}
+
+#contents .con .details i {
+    color: #FDC93B;
+    font-size: 0.9rem;
+}
+
+#contents .con .button {
+    /* background-color: aqua;
+    color: white; */
+    line-height: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    right: 50px;
+}
+
+#contents a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 10px 30px;
+    background-color: #E6DF9A;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+#contents a:hover {
+    background-color: #F3ED9E;
+    color: black;
+}
+
+@media (max-width: 769px) {
+    nav {
+        padding: 15px 20px;
+    }
+    nav img {
+        width: 130px;
+        cursor: pointer;
+    }
+    #menu {
+        display: initial;
+    }
+    
+    #menu-close {
+        display: initial;
+        font-size: 1.6rem;
+        color: white;
+        padding: 30px 0 20px 20px;
+    }
+    nav .navigation ul {
+        position: absolute;
+        top: 0;
+        right: -220px;
+        width: 220px;
+        height: 100vh;
+        background-color: rgba(17, 20, 104, 0.45);
+        backdrop-filter: blur(3.5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    nav .navigation ul.active {
+        right: 0;
+    }
+    
+    nav .navigation ul li {
+        padding: 20px 0 20px 40px;
+        margin-left: 0;
+    }
+    
+    nav .navigation ul li a {
+        color: white;
+    }
+
+    #contents {
+        padding: 8vw 4vw 0 4vw;
+    }
+}
