@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    border: none;
+}
+h2 {
+    text-shadow: 2px 2px #7e00e6;
+  }
+  p2{
+    text-shadow: 2px 2px #0e005e;
+  }
+  form{          
+    text-shadow: 2px 2px #0a0a0a9c;
+    font-style: normal;
+  }
