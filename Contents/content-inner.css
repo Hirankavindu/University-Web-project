@@ -172,6 +172,84 @@ nav .navigation ul li a:hover {
     color: black;
 }
 
+/* footer */
+
+footer {
+    padding: 8vw;
+    background-color: #101c32;
+    text-align: center;
+}
+
+footer h3 {
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+footer p {
+    color: #7b838a;
+}
+
+footer .subs {
+    margin-top: 10px;
+}
+
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background: #334f6c;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+footer .subs a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+footer .col .yellow {
+    border: 1px solid yellow;
+    /* padding: 14px 28px; */
+    margin-top: 30px;
+}
+
+footer .subs a.yellow {
+    color: white;
+    background: none;
+}
+
+footer .subs a.yellow:hover {
+    color: yellow;
+    background: none;
+    border: none;
+}
+
+footer .copyrights {
+    margin-top: 20px;
+}
+
+footer .copyrights a {
+    color: #FDC93B;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 3px 5px;
+    background-color: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+footer .copyrights a:hover {
+    color: yellow;
+    background: none;
+    border: none;
+}
+
+
 @media (max-width: 769px) {
     nav {
         padding: 15px 20px;
