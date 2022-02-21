@@ -58,9 +58,12 @@ header .navigation .navigation-items a{
 
  }
 
+
+
+
 /*about*/
 #about-home{
-    background-image: linear-gradient(rgba(5,9,54,0.3),rgba(5,4,46,0.7)), url("images/4.jpg");
+    background-image: linear-gradient(rgba(5,9,54,0.3),rgba(5,4,46,0.7)), url("4.jpg");
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -83,30 +86,41 @@ header .navigation .navigation-items a{
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 8vw 8vw 2vw 8vw;    
+    padding: 8vw 8vw 2vw 8vw;
+    
 }
 
 #about-container .about-img{
     width: 60%;
-    padding-right: 50px;    
+    padding-right: 50px;
+    
 }
 
+
+
+
 #about-container .about-img img{
-    width: 100%;   
+    width: 100%;
+    
 }
 
 #about-container .about-text{
     width: 40%;
+    
+
 }
 
 #about-container .about-text h2{
     color: #292828;
     padding-bottom: 30px;
+
 }
 
 #about-container .about-text p{
     color: #5f5d5d;
-    font-weight: 200;    
+    font-weight: 200;
+    
+    
 }
 
 #about-container .about-text .about-fe{
@@ -114,6 +128,7 @@ header .navigation .navigation-items a{
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 30px;
+
 }
 
 #about-container .about-text .about-fe img{
@@ -131,6 +146,7 @@ header .navigation .navigation-items a{
 #about-container .about-text .about-fe .fe-text h5{
     font-size: 16px;
     color: #292828;
+
 }
 
 #features{
@@ -140,7 +156,7 @@ header .navigation .navigation-items a{
 }
 
 #features .fea-base{
-    display: grid;
+    display: inline-flex;
     grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
     grid-gap: 3rem;
     margin-top: 20px;
@@ -149,15 +165,11 @@ header .navigation .navigation-items a{
 
 #features .fea-card{
     padding: 20px;
-    text-align: center;
-    transition: 0.5s;
-    display: flex;
-    
+    text-align: justify;
+    display: flex;    
 }
 
-
 #features .fea-box{
-    text-align: start;
     width: 300px;
     margin: 20px;
     height: 150px;
@@ -171,18 +183,18 @@ header .navigation .navigation-items a{
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
     position: relative;
-    
 }
 
 
 .features .fea-box h2{
+    text-align: start;
     font-size: 8em;
     position: absolute;
     font-weight: 100;
     color: rgba(0, 0, 0, 0.05);
     padding: 13px 0 7px 0;
-    top: -30px;
-    right: 30px;
+    top: -20px;
+    right: 20px;
     pointer-events: none;
 
 }
@@ -213,5 +225,10 @@ header .navigation .navigation-items a{
 }
 
 }
+
+
+
+
+
 
 
