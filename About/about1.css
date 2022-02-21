@@ -195,3 +195,23 @@ header .navigation .navigation-items a{
     font-weight: 300;
     color: rgba(51, 51, 51, 0.05);
 }
+
+
+@media (max-width: 769px){
+    header{
+        padding: 15px 20px;
+        z-index: 9999;
+    }
+ 
+/*about*/
+#about-container {
+    padding: 8vw 4vw 2vw 4vw;
+}
+
+#about-container .about-img {
+    padding-right: 30px;
+}
+
+}
+
+
