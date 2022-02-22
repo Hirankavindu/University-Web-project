@@ -541,5 +541,14 @@ header .navigation .navigation-items a{
 .card .content .btn button:hover{
     transform: scale(0.9);
 }
+/*logo*/
+.logo img{
+    width:250px;
+}
+.logo{
+    margin-left: 780px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
   
