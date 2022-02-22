@@ -50,6 +50,7 @@ nav .navigation {
 
 nav .navigation .active {
     color: rgb(35, 35, 85);
+    opacity: 0.7;
 }
 
 #menu {
@@ -79,14 +80,11 @@ nav .navigation ul li a {
     font-size: 16px;
     font-weight: 400;
     transition: 0.4s ease;
-    transition-property: opacity;
-    transition-duration: 00.4s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
 } 
 
 nav .navigation ul li a:hover {
-    color: rgba(5, 3, 94, 0.979);
+    color: rgb(69, 69, 172);
+    opacity: 0.5;
 }
 
 /* Home */
