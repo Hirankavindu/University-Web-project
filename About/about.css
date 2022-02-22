@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "poppins",sans-serif;
 }
 
 body{
@@ -47,7 +47,7 @@ body{
 .inner-container p{
     margin-bottom: 30px;
     font-size: 15px;
-    font-weight: 800;
+    font-weight: 200;
     color: #fdfdfd;
 }
 
