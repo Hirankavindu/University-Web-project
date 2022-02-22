@@ -127,6 +127,7 @@ nav .navigation ul li a:hover {
     height: auto;
     position: relative;
     border-radius: 20px;
+    box-shadow: 10px 10px 25px rgba(3, 3, 3, 0.5);
 }
 
 #contents .con img {
