@@ -126,6 +126,7 @@ nav .navigation ul li a:hover {
     background: whitesmoke;
     height: auto;
     position: relative;
+    border-radius: 20px;
 }
 
 #contents .con img {
@@ -133,10 +134,11 @@ nav .navigation ul li a:hover {
     height: 60%;
     background-size: cover;
     background-position: center;
+    border-radius: 20px;
 }
 
 #contents .con .details {
-    padding: 15px 15px 0 15px;
+    padding: 15px 15px 15px 15px;
 }
 
 #contents .con .details i {
@@ -144,31 +146,25 @@ nav .navigation ul li a:hover {
     font-size: 0.9rem;
 }
 
-#contents .con .button {
-    /* background-color: aqua;
-    color: white; */
-    line-height: 10px;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    border-radius: 50px;
-    position: absolute;
-    right: 50px;
-}
-
-#contents a {
-    color: black;
+#contents .con .button a {
     text-decoration: none;
     font-size: 0.9rem;
-    padding: 10px 30px;
-    background-color: #E6DF9A;
     font-weight: 600;
     border-radius: 30px;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7));
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: all 0.9s ease;
+    cursor: pointer;
 }
 
-#contents a:hover {
-    background-color: #F3ED9E;
+#contents .con .button a:hover {
     color: black;
+    background: linear-gradient(rgba(5, 4, 46, 0.7),rgba(9, 5, 54, 0.3));
 }
 
 /* footer */
