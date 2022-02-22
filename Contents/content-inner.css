@@ -5,9 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -43,7 +40,8 @@ nav {
 }
 
 nav .navigation .active {
-    color: yellowgreen;
+    color: rgb(35, 35, 85);
+    opacity: 0.7;
 }
 
 nav img {
@@ -78,19 +76,20 @@ nav .navigation ul li {
 
 nav .navigation ul li a {
     text-decoration: none;
-    color: rgb(21, 21, 100);
+    color: rgb(0, 0, 0);
     font-size: 16px;
-    font-weight: 500;
-    transition: 0.3s ease;
+    font-weight: 400;
+    transition: 0.4s ease;
 } 
 
 nav .navigation ul li a:hover {
-    color: #FDC93B;
+    color: rgb(69, 69, 172);
+    opacity: 0.5;
 }
 
 /* Home */
 #about-home {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url("images/BackWhite.png");
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url("images/children.jpg");
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -127,6 +126,7 @@ nav .navigation ul li a:hover {
     background: whitesmoke;
     height: auto;
     position: relative;
+    border-radius: 20px;
 }
 
 #contents .con img {
@@ -134,10 +134,11 @@ nav .navigation ul li a:hover {
     height: 60%;
     background-size: cover;
     background-position: center;
+    border-radius: 20px;
 }
 
 #contents .con .details {
-    padding: 15px 15px 0 15px;
+    padding: 15px 15px 15px 15px;
 }
 
 #contents .con .details i {
@@ -145,37 +146,31 @@ nav .navigation ul li a:hover {
     font-size: 0.9rem;
 }
 
-#contents .con .button {
-    /* background-color: aqua;
-    color: white; */
-    line-height: 10px;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    border-radius: 50px;
-    position: absolute;
-    right: 50px;
-}
-
-#contents a {
-    color: black;
+#contents .con .button a {
     text-decoration: none;
     font-size: 0.9rem;
-    padding: 10px 30px;
-    background-color: #E6DF9A;
     font-weight: 600;
     border-radius: 30px;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7));
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: all 0.9s ease;
+    cursor: pointer;
 }
 
-#contents a:hover {
-    background-color: #F3ED9E;
+#contents .con .button a:hover {
     color: black;
+    background: linear-gradient(rgba(5, 4, 46, 0.7),rgba(9, 5, 54, 0.3));
 }
 
 /* footer */
 
 footer {
-    padding: 8vw;
+    padding: 4vw;
     background-color: #101c32;
     text-align: center;
 }
@@ -213,7 +208,7 @@ footer .subs a {
 }
 
 footer .col .yellow {
-    border: 1px solid yellow;
+    border: 1px solid rgb(69, 69, 172);
     /* padding: 14px 28px; */
     margin-top: 30px;
 }
@@ -224,7 +219,7 @@ footer .subs a.yellow {
 }
 
 footer .subs a.yellow:hover {
-    color: yellow;
+    color: rgb(69, 69, 172);
     background: none;
     border: none;
 }
@@ -234,7 +229,7 @@ footer .copyrights {
 }
 
 footer .copyrights a {
-    color: #FDC93B;
+    color: rgb(69, 69, 172);
     text-decoration: none;
     font-size: 0.9rem;
     padding: 3px 5px;
@@ -244,7 +239,7 @@ footer .copyrights a {
 }
 
 footer .copyrights a:hover {
-    color: yellow;
+    color: rgb(69, 69, 172);
     background: none;
     border: none;
 }
