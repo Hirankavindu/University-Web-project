@@ -551,4 +551,103 @@ header .navigation .navigation-items a{
     margin-top: 20px;
 }
 
+/*Counter*/
+.page-wrapper{
+    background: rgba(241, 239, 239, 0.685);
+  }
+  .one{
+   padding-top: 120px;
+ }
+ .one .container{
+   z-index: 10;
+   position: relative;
+ }
+ .single{
+   box-shadow: 0px 20px 60px 0px rgba(42, 40, 51, 0.05);
+   width: 220px;
+   height: 220px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   position: relative;
+ }
+ .single::before{
+   content: '';
+   position: absolute;
+   top: 10px;
+   bottom: 10px;
+   left: 10px;
+   right: 10px;
+   border-radius: 50%;
+   background-image: linear-gradient(40deg,#ff43c0 0%,#ffa95c 100%);
+ }
+ .inner{
+   width: 100%;
+   height: 100%;
+   box-shadow: 0px 20px 40px 0px rgba(255, 118, 142, 0.3);
+   border-radius: 50%;
+   position: relative;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .inner h3,.inner p{
+   margin: 0;
+ }
+ .inner h3{
+   color: #2a2833;
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 1em;
+ }
+ 
+ .inner p{
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+   font-size: 12px;
+   font-weight: 500;
+   color: #74727a;
+   line-height: 1em;
+   margin-top: 10px;
+ }
+ 
+ .gap{
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 5%;
+   font-weight: 400;
+   
+ }
+ .text-centdown{
+   text-align: center;
+ }
+ .text-centdown h2{
+   font-size: 40px;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ 
+ .one [class*=col]:nth-child(1) .inner{
+   box-shadow: inset 0px 20px 40px 0px rgba(255, 118, 142, 0.3);
+ }
+ .one [class*=col]:nth-child(1) .single::before{
+   box-shadow: inset 0px 20px 40px 0px rgba(255, 118, 142, 0.3);
+ }
+ .one [class*=col]:nth-child(2) .inner{
+   box-shadow: inset 0px 20px 60px 0px rgba(141, 142, 255, 0.3);
+ }
+ .one [class*=col]:nth-child(2) .single::before{
+  background-image: linear-gradient(40deg,#0db8ff 0%,#f332ff 100%);
+ }
+ .one [class*=col]:nth-child(3) .inner{
+   box-shadow: inset 0px 20px 40px 0px rgba(58, 212, 2173, 0.3);
+ }
+ .one [class*=col]:nth-child(3) .single::before{
+  background-image: linear-gradient(40deg,#39a3ff 0%,#3cff53 100%);
+ }
+
   
