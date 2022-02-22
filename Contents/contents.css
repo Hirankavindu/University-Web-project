@@ -242,6 +242,10 @@ footer {
     text-align: center;
 }
 
+footer img {
+    width: 80px;
+}
+
 footer h3 {
     color: rgb(241, 240, 245);
     font-weight: 600;
