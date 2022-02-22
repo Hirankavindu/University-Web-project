@@ -56,3 +56,12 @@ $(".slider").owlCarousel({
     autoplayTimeout: 2000, //2000ms = 2s;
     autoplayHoverPause: true,
    });
+
+    //Counter
+ if($('.countdown').length){
+    $('.countdown').counterUp({
+        delay:10,
+        time:3000
+
+    });
+}
