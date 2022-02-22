@@ -44,6 +44,13 @@ body{
     color: #fdfdfd;
 }
 
+.inner-container p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #fdfdfd;
+}
+
 .inner-container .btn{
     position: relative;
 }
