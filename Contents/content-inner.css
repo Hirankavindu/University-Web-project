@@ -121,6 +121,7 @@ nav .navigation ul li a:hover {
 }
 
 #contents .con-box {
+    padding: 0vw 2vw 6vw 2vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
     grid-gap: 1rem;
@@ -267,7 +268,7 @@ footer .copyrights a {
 }
 
 footer .copyrights a:hover {
-    color: rgb(69, 69, 172);
+    color: rgb(48, 48, 136);
     background: none;
     border: none;
 }
@@ -320,5 +321,9 @@ footer .copyrights a:hover {
 
     #contents {
         padding: 8vw 4vw 0 4vw;
+    }
+
+    #contents .con-box {
+        padding: 0vw 2vw 6vw 2vw;
     }
 }
