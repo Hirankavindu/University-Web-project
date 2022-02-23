@@ -239,7 +239,14 @@ section .card .image img {
 footer {
     padding: 4vw;
     background-color: #101c32;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .col {
+    padding-bottom: 40px;
 }
 
 footer img {
@@ -254,6 +261,20 @@ footer h3 {
 
 footer p {
     color: #7b838a;
+}
+
+footer li a{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+footer li a:hover{
+    color: rgb(241, 240, 245); 
 }
 
 footer .subs {
@@ -297,22 +318,19 @@ footer .subs a.yellow:hover {
 
 footer .copyrights {
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
-footer .copyrights a {
-    color: rgb(69, 69, 172);
-    text-decoration: none;
-    font-size: 0.9rem;
-    padding: 3px 5px;
-    background-color: none;
-    font-weight: 600;
-    border-radius: 5px;
+footer .copyrights img {
+    width: 50px;
 }
 
-footer .copyrights a:hover {
-    color: rgb(48, 48, 136);
-    background: none;
-    border: none;
+footer .copyrights p {
+    font-size: 12px;
 }
 
 @media (max-width: 769px) {
