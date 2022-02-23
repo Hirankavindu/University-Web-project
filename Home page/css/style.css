@@ -335,6 +335,14 @@ header .navigation .navigation-items a{
   width: 150px;
  
 }
+.second-sec h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
 .second-sec a{
   text-decoration: none;
   padding: 15px 40px;
@@ -429,8 +437,10 @@ header .navigation .navigation-items a{
 .sec-heading h6 {
   font-family: allura;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 35px;
 }
+
+
 
 .single-box {
   border: 1px solid #d6d6d6;
