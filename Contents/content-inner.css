@@ -108,6 +108,12 @@ nav .navigation ul li a:hover {
     letter-spacing: 1px;
 }
 
+#about-home p {
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
 /* contents */
 #contents {
     padding: 8vw 8vw 8vw 8vw;
@@ -115,6 +121,7 @@ nav .navigation ul li a:hover {
 }
 
 #contents .con-box {
+    padding: 0vw 2vw 6vw 2vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
     grid-gap: 1rem;
@@ -127,6 +134,7 @@ nav .navigation ul li a:hover {
     height: auto;
     position: relative;
     border-radius: 20px;
+    box-shadow: 10px 10px 25px rgba(3, 3, 3, 0.5);
 }
 
 #contents .con img {
@@ -162,7 +170,28 @@ nav .navigation ul li a:hover {
     cursor: pointer;
 }
 
+#contents .con .button-2 a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7));
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    margin: 90px;
+    border-radius: 20px;
+    transition: all 0.9s ease;
+    cursor: pointer;
+}
+
 #contents .con .button a:hover {
+    color: black;
+    background: linear-gradient(rgba(5, 4, 46, 0.7),rgba(9, 5, 54, 0.3));
+}
+
+#contents .con .button-2 a:hover {
     color: black;
     background: linear-gradient(rgba(5, 4, 46, 0.7),rgba(9, 5, 54, 0.3));
 }
@@ -239,7 +268,7 @@ footer .copyrights a {
 }
 
 footer .copyrights a:hover {
-    color: rgb(69, 69, 172);
+    color: rgb(48, 48, 136);
     background: none;
     border: none;
 }
@@ -292,5 +321,9 @@ footer .copyrights a:hover {
 
     #contents {
         padding: 8vw 4vw 0 4vw;
+    }
+
+    #contents .con-box {
+        padding: 0vw 2vw 6vw 2vw;
     }
 }

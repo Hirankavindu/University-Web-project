@@ -130,6 +130,7 @@ section .card .image {
     padding: 2px;
     color: black;
     background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7));    
+    box-shadow: 10px 10px 25px rgba(3, 3, 3, 0.5);
 }
 
 section .card .image img {
@@ -145,6 +146,7 @@ section .card .image img {
     background: whitesmoke;
     border-radius: 12px;
     margin: 20px 0;
+    
 }
 
 .card::before {
@@ -238,6 +240,10 @@ footer {
     padding: 4vw;
     background-color: #101c32;
     text-align: center;
+}
+
+footer img {
+    width: 80px;
 }
 
 footer h3 {
