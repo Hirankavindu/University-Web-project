@@ -1,44 +1,49 @@
 *{
-    padding: 0;
-    margin: 0;
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-    border: none;
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  border: none;
 }
+h1{
+  text-shadow: 2px 3px #201529;
+}
+
 h2 {
-    text-shadow: 2px 2px #7e00e6;
-  }
-  p2{
-    text-shadow: 2px 2px #0e005e;
-  }
-  form{          
-    text-shadow: 2px 2px #0a0a0a9c;
-    font-style: normal;
-  }
-  .fa-facebook-square {
-    background: #3B5998;
+  text-shadow: 2px 2px #7e00e6;
+}
+p2{
+  text-shadow: 2px 2px #0e005e;
+}
+form{          
+  text-shadow: 2px 2px #0704089c;
+  font-style: normal;
+}
+
+.fa-facebook-square {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter-square {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: rgb(187, 22, 159);
+  color: rgb(253, 243, 243);
+}
+.fa-whatsapp {
+    background: rgb(48, 245, 22);
+    color: rgb(19, 17, 17);
+}
+.fa-linkedin {
+    background: #007bb5;
     color: white;
-  }
-  
-  .fa-twitter-square {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-instagram {
-    background: rgb(187, 22, 159);
-    color: rgb(253, 243, 243);
-  }
-  .fa-whatsapp {
-      background: rgb(48, 245, 22);
-      color: rgb(19, 17, 17);
-  }
-  .fa-linkedin {
-      background: #007bb5;
-      color: white;
   }
   body{
-    background-image: url('imagess/7.jpg');
+    background-image: url('imagess/4.jpg');
     width: 100%;
     height: 100vh;
     background-size: 100% 100vh;
@@ -48,24 +53,152 @@ h2 {
 header{
     position:absolute;
     text-align: center;
-    width: 75%;
-    left: 12%;
-    top: 2rem;
+
 }
 header h6{
     font-size: 30px;
     text-shadow: 5px 3px #0b3081; 
 }
-    header h6{
-        font-size: 30px;
-        text-shadow: 5px 3px #0b3081; 
-    }
-    .empty{
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.308);
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
+.empty{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.308);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.content{
+  display: flex;
+  min-height: 110vh;
+}
+.content section{
+  margin-top: 8vh;
+  margin-left: 20vh;
+}
+.content-form{
+  margin-top: 7rem;
+}
+section i{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255,255,255,0.8);
+  color: #000;
+  text-align: center;
+}
+.i1{
+  color: aquamarine;
+}
+.form{
+  display:flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 50%;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  
+}
+.form .contact-form input{
+  width: 30rem;
+  background-color:transparent;
+  border: 0px;
+  border: transparent;
+  margin: 20px;
+  padding: 20px;
+  font-size: 18px;
+  border-bottom: 2px solid #fff;
+}
+.form .contact-form input ~ span{ 
+  position: absolute;
+  left: 20px;
+  transition: 0.9s ease-in-out;
+  margin-top: 10px;
+}
+.form .contact-form input:focus ~ span{
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+.form .contact-form textarea{
+  width: 30rem;
+  border: 0;
+  background-color: transparent;
+  margin: 20px;
+  font-size: 17px;
+  border-bottom: 2px solid rgb(43, 35, 35);
+}
+.form .contact-form textarea ~ span{
+  position: absolute;
+  left: 20px;
+  margin-top: 10px;
+  transition: 0.9s ease-in-out; 
+}
+.form .contact-form textarea:focus ~ span{
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+.form .contact-form input[type=submit]{
+  background-color: rgb(32, 33, 34);
+  border: 2px solid rgba(0, 0, 0, 0.74);
+  font-size: 16px;
+  width: 50%;
+  height: 10px;
+  margin-top: -5px;
+  text-align:center;
+     
+ }
+.form .contact-form input[type=submit]:hover{
+  background-color: transparent;
+  color: rgba(255, 30, 169, 0.863);
+  text-align: center;
+}
+.media{
+  position: absolute;
+  top: 85vh;
+  right: 20vh;
+  display: flex;
+  list-style: none;
+}
+.media li{
+  margin: 20px 30px;  
+}
+@media screen and (max-width: 900px){
+  body{
+  background-repeat: repeat-y;
+  overflow: auto;
+ }
+  .headrer{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+ }
+  .empty {
+  height: 200vh;
+ }
+  .form{
+  position: absolute;
+  top: 100vh;
+  margin-left:10%;
+ }
+  .content-form{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:0;
+  margin-top: 53vh;
+  margin-left: 10vh;
+ }
+ .content section{
+  margin-top: 0;
+  margin-left: 0;
+ }
+ .media{
+  position: absolute;
+  top: 183vh;
+  right: 30;
+ }
+}

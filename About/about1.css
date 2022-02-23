@@ -63,7 +63,7 @@ header .navigation .navigation-items a{
 
 /*about*/
 #about-home{
-    background-image: linear-gradient(rgba(5,9,54,0.3),rgba(5,4,46,0.7)), url("4.jpg");
+    background-image: linear-gradient(rgba(5,9,54,0.3),rgba(5,4,46,0.7)), url("images/4.jpg");
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -155,6 +155,7 @@ header .navigation .navigation-items a{
     
 }
 
+
 #features .fea-base{
     display: inline-flex;
     grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
@@ -166,7 +167,7 @@ header .navigation .navigation-items a{
 #features .fea-card{
     padding: 20px;
     text-align: justify;
-    display: flex;    
+    display: flex;
 }
 
 #features .fea-box{
@@ -191,7 +192,7 @@ header .navigation .navigation-items a{
     font-size: 8em;
     position: absolute;
     font-weight: 100;
-    color: rgba(0, 0, 0, 0.05);
+    color: rgba(31, 14, 107, 0.05);
     padding: 13px 0 7px 0;
     top: -20px;
     right: 20px;
@@ -210,22 +211,30 @@ header .navigation .navigation-items a{
 
 
 @media (max-width: 769px){
-    header{
-        padding: 15px 20px;
-        z-index: 9999;
+    #about-home {   
+        width: 50%;
+        height: 30vh;
+        background-position: center;    
+    }
+
+    #about-container .about-img img {
+        
+    }
+
+    #about-container .about-text p {
+        font-weight: 150;
+        position: relative;
     }
  
-/*about*/
-#about-container {
-    padding: 8vw 4vw 2vw 4vw;
-}
 
-#about-container .about-img {
-    padding-right: 30px;
-}
+@media (max-width: 475px){
+
 
 }
 
+@media (max-width: 376px){
+
+}
 
 
 
