@@ -167,7 +167,7 @@ header .navigation .navigation-items a{
 #features .fea-card{
     padding: 20px;
     text-align: justify;
-    display: flex;    
+    display: flex;
 }
 
 #features .fea-box{
@@ -192,7 +192,7 @@ header .navigation .navigation-items a{
     font-size: 8em;
     position: absolute;
     font-weight: 100;
-    color: rgba(7, 7, 24, 0.05);
+    color: rgba(31, 14, 107, 0.05);
     padding: 13px 0 7px 0;
     top: -20px;
     right: 20px;
@@ -210,36 +210,11 @@ header .navigation .navigation-items a{
 }
 
 
-@media (max-width: 769px){
-    header{
-        padding: 15px 20px;
-        z-index: 9999;
-    }
- 
-    /*about*/
-    #about-container {
-        padding: 8vw 4vw 0vw 4vw;
-    }
+@media screen and (max-width: 769px){
+    .about-home { width: 100%;}
+    .about-container { width: 100%;}
 
-    #about-container .about-img {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 8vw;
-    }
-
-    #about-container .about-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 8vw;
-        
-        /* align-items: flex; */
-        /* flex-direction: row; */
-    }
-
+    
 }
 
 
