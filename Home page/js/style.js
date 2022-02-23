@@ -91,3 +91,12 @@ $('.clients-carousel').owlCarousel({
 
     });
 }
+
+//team card
+$('.team-pics img').click(function(){
+    $(".team-pics img").removeClass("active");
+    $("this").addClass("active");
+
+    $(".team").removeClass("active");
+    $("#"+$(this).attr("alt")).addClass("active");
+});
