@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #82828396;
+}
+
+form{
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto 0 auto;
+    box-shadow: 0 4px 8px 0 #30475e, 0 4px 8px 0 #30475e;   
+}
+.donation{
+    background-color: #82828300;
+}
+.logo101{
+    padding-top: 35px;
+    padding-left: 44%;
+
+}
+.donation img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.box1{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 15px 0;
+    background-color: #30475ecb;
+}
+
+.div1{
+    display: inline-block;
+    color: aliceblue;
+}
+.div2{
+    color: aliceblue;
+}
+
+.box2{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0 15px 0;
+    background-color: #30475ecb;
+    
+}
+.btn1 button{
+    width: 49%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    color: rgb(34, 185, 47);
+}
+
+form .btn1 button:hover{
+	background: rgba(175, 248, 212, 0.623);
+}
+
+.btn2{
+    
+    color: rgb(233, 15, 15);
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+        padding: 20px;
+    }
+    form{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .div1{
+        display: block;
+    }
+    .box1{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+}
