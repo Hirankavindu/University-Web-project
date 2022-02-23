@@ -79,18 +79,20 @@
 </div>  
 
      <form>
+         <div class="form"ction="" method="post" autocomplete="off">
          <div class="form">
-           <div class="right">
+         <div class="right">
                <div class="contact-form">
-                   <input type="text" required>
+                   <input type="text" name="name" class="input" required>
                      <span><b>Full name</b></span>
                </div>
                <div class="contact-form">
-                   <input type="E-mail" required>
+                   <input type="E-mail" name="email" class="input" required>
+                   <label for="">E-mail</label>
                    <span><b>E-mail Id</b></span>
                </div>
                <div class="contact-form">
-                   <textarea name="text"></textarea>
+                   <textarea name="text" name="message" class="input"></textarea>
                     <span><b>
                         Type Your Text Here......
                     </b></span>
