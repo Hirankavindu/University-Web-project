@@ -210,31 +210,13 @@ header .navigation .navigation-items a{
 }
 
 
-@media (max-width: 769px){
-    #about-home {   
-        width: 50%;
-        height: 30vh;
-        background-position: center;    
-    }
+@media screen and (max-width: 769px){
+    .about-home { width: 100%;}
+    .about-container { width: 100%;}
 
-    #about-container .about-img img {
-        
-    }
-
-    #about-container .about-text p {
-        font-weight: 150;
-        position: relative;
-    }
- 
-
-@media (max-width: 475px){
-
-
+    
 }
 
-@media (max-width: 376px){
-
-}
 
 
 
