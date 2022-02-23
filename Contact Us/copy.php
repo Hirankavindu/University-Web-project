@@ -74,7 +74,8 @@
              <p>
                  Edu4Uonlinelibrary@gmail.com
              </p>
-         </section>          
+         </section>    
+         <div class="container">      
    </div>
 </div>  
 
@@ -89,11 +90,13 @@
                <div class="contact-form">
                    <input type="E-mail" name="email" class="input" required>
                    <label for="">E-mail</label>
-                   <span><b>E-mail Id</b></span>
+                   <span><b>E-mail</b></span>
                </div>
+
                <div class="contact-form">
-                   <textarea name="text" name="message" class="input"></textarea>
-                    <span><b>
+                   <textarea name="message" name="message" class="input"></textarea>
+                   <label for="">Type Your Text Here......</label>
+                   <span><b>
                         Type Your Text Here......
                     </b></span>
                 </div>
