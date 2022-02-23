@@ -89,13 +89,11 @@
                </div>
                <div class="contact-form">
                    <input type="E-mail" name="email" class="input" required>
-                   <label for="">E-mail</label>
                    <span><b>E-mail</b></span>
                </div>
 
                <div class="contact-form">
                    <textarea name="message" name="message" class="input"></textarea>
-                   <label for="">Type Your Text Here......</label>
                    <span><b>
                         Type Your Text Here......
                     </b></span>
