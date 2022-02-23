@@ -210,16 +210,49 @@ header .navigation .navigation-items a{
 }
 
 
-@media screen and (max-width: 769px){
-    .about-home { width: 100%;}
-    .about-container { width: 100%;}
+@media screen and (max-width: 1200px){
+    .about-home{
+        background-size: cover;
+        background-position: center;
 
+    }
+    .about-container{
+        display: inline;
+        text-align: justify;
+    }
+    
+}
+    
+@media screen and (max-width: 800px){
+    .about-home{
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .about-container{
+        display: inline;
+        text-align: justify;
+    }
+    .features .fea-card{
+        position: relative;;
+    }
     
 }
 
-
-
-
-
+@media screen and (max-width: 400px){
+    .about-home{
+        background-size: cover;
+        background-position: center;
+    }
+    .about-container{
+        display: inline;
+        text-align: justify;
+        width: 100%;
+    }
+    .features .fea-card{
+        position: relative;;
+    }
+    
+}
 
 
