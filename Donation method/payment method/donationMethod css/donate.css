@@ -80,6 +80,7 @@ form .btn1 button:hover{
     }
     form{
         width: 100%;
+        margin: -200px auto 0 auto;
         box-sizing: border-box;
     }
     .div1{
@@ -88,6 +89,14 @@ form .btn1 button:hover{
     .box1{
         width: 100%;
         box-sizing: border-box;
+    }
+    .logo101{
+        width: 100%;
+        padding:39%;
+    }
+    .donation img{
+        width: 150px;
+        height: 150px;
     }
     
 }
