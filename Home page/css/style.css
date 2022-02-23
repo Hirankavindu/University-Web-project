@@ -335,6 +335,14 @@ header .navigation .navigation-items a{
   width: 150px;
  
 }
+.second-sec h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
 .second-sec a{
   text-decoration: none;
   padding: 15px 40px;
@@ -429,8 +437,10 @@ header .navigation .navigation-items a{
 .sec-heading h6 {
   font-family: allura;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 35px;
 }
+
+
 
 .single-box {
   border: 1px solid #d6d6d6;
@@ -655,6 +665,73 @@ padding-bottom: 25px;
   background-image: linear-gradient(40deg,#39a3ff 0%,#3cff53 100%);
  }
 
+ /*team*/
+ .team-section{
+  background: #c3b8b8;
+  padding: 80px 0;
+  text-align: center;
+
+}
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+
+}
+.team-section h1{
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+
+}
+.team-pics{
+  padding: 40px 0;
+
+}
+.team-pics img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 20px;
+  filter: grayscale(100%);
+  transition: .3s;
+  cursor: pointer;
+
+}
+.team-pics img:hover, .testimonial-pics img.active{
+  filter: none;
+}
+
+.team-contents{
+  max-width: 600px;
+  margin: auto;
+
+}
+
+.team{
+  display: none;
+
+}
+
+.team.active{
+  display: block;
+
+}
+
+.team p{
+  color: #5c5c5c;
+  margin-bottom: 20px;
+
+}
+
+.team .description{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 15px;
+
+}
+
  /*Footer*/
 footer {
   padding: 4vw;
@@ -772,7 +849,7 @@ footer .copyrights a:hover {
   width:150px;
 }
 .single{
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
   .slider{
