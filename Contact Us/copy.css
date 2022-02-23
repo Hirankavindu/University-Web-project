@@ -42,3 +42,20 @@ form{
     background: #007bb5;
     color: white;
   }
+  body{
+    background-image: url('imagess/4.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+header{
+    position:absolute;
+    text-align: center;
+
+}
+header h6{
+    font-size: 30px;
+    text-shadow: 5px 3px #0b3081; 
+}
