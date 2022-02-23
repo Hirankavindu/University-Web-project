@@ -20,3 +20,34 @@ body{
     animation-timing-function: ease-in-out;
 
 }
+@keyframes animate{
+    0%{background-image: url(images/6.jpg)
+   }
+   20%{
+    background-image: url(imagess/7.jpg)
+   }
+   30%{
+    background-image: url(imagess/10.jpg)
+   }
+   40%{
+    background-image: url(imagess/9.jpg)
+   }
+   50%{
+    background-image: url(imagess/6.jpg)
+   }
+   60%{
+    background-image: url(imagess/5.jpg)
+   }
+   70%{
+    background-image: url(imagess/3.jpg)
+   }
+   80%{
+    background-image: url(imagess/2.jfif)
+   }
+   90%{
+    background-image: url(imagess/4.jpg)
+   }
+   100%{
+    background-image: url(imagess/8.png)
+   }
+}
