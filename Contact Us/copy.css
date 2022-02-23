@@ -156,3 +156,13 @@ section i{
   color: rgba(255, 30, 169, 0.863);
   text-align: center;
 }
+.media{
+  position: absolute;
+  top: 85vh;
+  right: 20vh;
+  display: flex;
+  list-style: none;
+}
+.media li{
+  margin: 20px 30px;  
+}
