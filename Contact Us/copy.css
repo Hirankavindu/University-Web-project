@@ -92,3 +92,67 @@ section i{
 .i1{
   color: aquamarine;
 }
+.form{
+  display:flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 50%;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  
+}
+.form .contact-form input{
+  width: 30rem;
+  background-color:transparent;
+  border: 0px;
+  border: transparent;
+  margin: 20px;
+  padding: 20px;
+  font-size: 18px;
+  border-bottom: 2px solid #fff;
+}
+.form .contact-form input ~ span{ 
+  position: absolute;
+  left: 20px;
+  transition: 0.9s ease-in-out;
+  margin-top: 10px;
+}
+.form .contact-form input:focus ~ span{
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+.form .contact-form textarea{
+  width: 30rem;
+  border: 0;
+  background-color: transparent;
+  margin: 20px;
+  font-size: 17px;
+  border-bottom: 2px solid rgb(43, 35, 35);
+}
+.form .contact-form textarea ~ span{
+  position: absolute;
+  left: 20px;
+  margin-top: 10px;
+  transition: 0.9s ease-in-out; 
+}
+.form .contact-form textarea:focus ~ span{
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+.form .contact-form input[type=submit]{
+  background-color: rgb(32, 33, 34);
+  border: 2px solid rgba(0, 0, 0, 0.74);
+  font-size: 16px;
+  width: 50%;
+  height: 10px;
+  margin-top: -5px;
+  text-align:center;
+     
+ }
+.form .contact-form input[type=submit]:hover{
+  background-color: transparent;
+  color: rgba(255, 30, 169, 0.863);
+  text-align: center;
+}
