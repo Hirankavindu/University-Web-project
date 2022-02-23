@@ -1,71 +1,15 @@
 *{
-    padding: 0;
-    margin: 0;
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-    border: none;
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  border: none;
 }
+h1{
+  text-shadow: 2px 3px #201529;
+}
+
 h2 {
-    text-shadow: 2px 2px #7e00e6;
-  }
-  p2{
-    text-shadow: 2px 2px #0e005e;
-  }
-  form{          
-    text-shadow: 2px 2px #0a0a0a9c;
-    font-style: normal;
-  }
-  .fa-facebook-square {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter-square {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-instagram {
-    background: rgb(187, 22, 159);
-    color: rgb(253, 243, 243);
-  }
-  .fa-whatsapp {
-      background: rgb(48, 245, 22);
-      color: rgb(19, 17, 17);
-  }
-  .fa-linkedin {
-      background: #007bb5;
-      color: white;
-  }
-  body{
-    background-image: url('imagess/7.jpg');
-    width: 100%;
-    height: 100vh;
-    background-size: 100% 100vh;
-    position: relative;
-    background-repeat: no-repeat;
+  text-shadow: 2px 2px #7e00e6;
 }
-header{
-    position:absolute;
-    text-align: center;
-    width: 75%;
-    left: 12%;
-    top: 2rem;
-}
-header h6{
-    font-size: 30px;
-    text-shadow: 5px 3px #0b3081; 
-}
-    header h6{
-        font-size: 30px;
-        text-shadow: 5px 3px #0b3081; 
-    }
-    .empty{
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.308);
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
