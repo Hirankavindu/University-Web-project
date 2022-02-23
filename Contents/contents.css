@@ -49,7 +49,8 @@ nav .navigation {
 }
 
 nav .navigation .active {
-    color: yellowgreen;
+    color: rgb(35, 35, 85);
+    opacity: 0.7;
 }
 
 #menu {
@@ -75,21 +76,22 @@ nav .navigation ul li {
 
 nav .navigation ul li a {
     text-decoration: none;
-    color: rgb(21, 21, 100);
+    color: rgb(0, 0, 0);
     font-size: 16px;
-    font-weight: 500;
-    transition: 0.3s ease;
+    font-weight: 400;
+    transition: 0.4s ease;
 } 
 
 nav .navigation ul li a:hover {
-    color: #FDC93B;
+    color: rgb(69, 69, 172);
+    opacity: 0.5;
 }
 
 /* Home */
 #about-home {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url("images/BackWhite.png");
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7)), url("images/children.jpg");
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -127,7 +129,8 @@ section .card .image {
     border-radius: 15px;
     padding: 2px;
     color: black;
-    background: linear-gradient(90deg, rgba(203,155,81,1) 0%, rgba(246,226,122,1) 80%, rgba(246,242,192,1) 100%);
+    background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7));    
+    box-shadow: 10px 10px 25px rgba(3, 3, 3, 0.5);
 }
 
 section .card .image img {
@@ -135,7 +138,7 @@ section .card .image img {
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
-    border: 1px solid white;
+    border: 1px solid  background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7));
 }
 
 .card {
@@ -143,6 +146,7 @@ section .card .image img {
     background: whitesmoke;
     border-radius: 12px;
     margin: 20px 0;
+    
 }
 
 .card::before {
@@ -151,7 +155,7 @@ section .card .image img {
     height: 40%;
     width: 100%;
     color: black;
-    background: linear-gradient(90deg, rgba(246,242,192,1) 0%, rgba(246,226,122,1) 20%, rgba(203,155,81,1) 100%);
+    background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7));
     border-radius: 15px 15px 0 0;
 }
 
@@ -195,7 +199,7 @@ section .card .image img {
 }
 
 .card .button button {
-    background: linear-gradient(90deg, rgba(203,155,81,1) 0%, rgba(246,226,122,1) 80%, rgba(246,242,192,1) 100%);
+    background: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5, 4, 46, 0.7));
     outline: none;
     border: none;
     color: white;
@@ -209,25 +213,25 @@ section .card .image img {
 
 .card .button button:hover {
     color: black;
-    background: linear-gradient(90deg, rgba(246,242,192,1) 0%, rgba(246,226,122,1) 20%, rgba(203,155,81,1) 100%);
+    background: linear-gradient(rgba(5, 4, 46, 0.7),rgba(9, 5, 54, 0.3));
 }
 
 .swiper-pagination-bullet {
     height: 7px;
     width: 26px;
     border-radius: 25px;
-    background: linear-gradient(90deg, rgba(246,242,192,1) 0%, rgba(246,226,122,1) 20%, rgba(203,155,81,1) 100%);
+    background-image: linear-gradient(rgba(5, 4, 46, 0.7),rgba(9, 5, 54, 0.3));  
 }
 
 .swiper-button-next, .swiper-button-prev {
     opacity: 0.5;
-    color: #FDC93B;
+    color: #101c32;
     transition: 0.5s ease;
 }
 
 .swiper-button-next:hover, .swiper-button-prev:hover {
     opacity: 1;
-    color: #FDC93B;
+    color: #101c32;
 }
 
 /* footer */
@@ -236,6 +240,10 @@ footer {
     padding: 4vw;
     background-color: #101c32;
     text-align: center;
+}
+
+footer img {
+    width: 80px;
 }
 
 footer h3 {
@@ -271,7 +279,7 @@ footer .subs a {
 }
 
 footer .col .yellow {
-    border: 1px solid yellow;
+    border: 1px solid rgb(69, 69, 172);
     /* padding: 14px 28px; */
     margin-top: 30px;
 }
@@ -282,7 +290,7 @@ footer .subs a.yellow {
 }
 
 footer .subs a.yellow:hover {
-    color: yellow;
+    color: rgb(69, 69, 172);
     background: none;
     border: none;
 }
@@ -292,7 +300,7 @@ footer .copyrights {
 }
 
 footer .copyrights a {
-    color: #FDC93B;
+    color: rgb(69, 69, 172);
     text-decoration: none;
     font-size: 0.9rem;
     padding: 3px 5px;
@@ -302,7 +310,7 @@ footer .copyrights a {
 }
 
 footer .copyrights a:hover {
-    color: yellow;
+    color: rgb(48, 48, 136);
     background: none;
     border: none;
 }

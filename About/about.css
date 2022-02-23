@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "poppins",sans-serif;
 }
 
 body{
@@ -41,6 +41,13 @@ body{
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 800;
+    color: #fdfdfd;
+}
+
+.inner-container p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 200;
     color: #fdfdfd;
 }
 
@@ -103,3 +110,36 @@ body{
     margin-bottom: 10px;
 
 }
+
+
+
+@media screen and (max-width: 1200px){
+    .inner-container{
+        padding: 80px;
+
+    }
+}
+    
+@media screen and (max-width: 1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 600px){
+    .about-section{
+     
+        padding: 0;
+    }
+    .inner-container{
+       padding: 60px;
+        
+    }
+}
+
+

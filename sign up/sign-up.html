@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SING-UP </title> 
+<link rel="stylesheet" href="sign up/font-awesome.min.css">
+<link rel="stylesheet" href="../sign up/style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="title">SIGN-UP</div>
+      <form action="#" id="form" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="Enter Your First Name" class="type-box" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Enter Your Last Name" class="type-box" required>
+          </div>
+          <div class="input-box">
+            <span class="details">User Name</span>
+            <input type="text" placeholder="Enter Your User Name" class="type-box" required>
+          </div>
+          <div class="input-box">
+            <span class="details">E-mail</span>
+            <input type="text" placeholder="Enter Your E-mail" onkeydown="validation()" id="email" class="type-box" required>
+            <span id="text"></span>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter Your Strong Password" id="password" class="type-box" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Comfirm Password</span>
+            <input type="password" placeholder="Comfirm Your Strong Password" id="password" class="type-box" required>
+          </div>
+        </div>
+        
+        <div class="button">
+          <input type="submit" value="Sign-Up">
+        </div>
+      </form>
+    </div>
+    <div class="animation-area">
+      <ul class="box-area">
+          <li class="fa fa-plus"></li>
+          <li></li>
+          <li class="fa fa-plus"></li>
+          <li></li>
+          <li class="fa fa-plus"></li>
+          <li></li>
+          <li class="fa fa-plus"></li>
+          <li></li>
+          <li class="fa fa-plus"></li>
+          <li></li>
+      </ul>
+  </div>
+
+  <script>
+    //Email validation check
+  function validation()
+  {
+      var form = document.getElementById("form");
+      var email = document.getElementById("email").value;
+      var text = document.getElementById("text");
+      var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+  
+  
+      if (email.match(pattern))
+      {
+          form.classList.add("valid");
+          form.classList.remove("invalid");
+          text.innerHTML = "Your Email Address in Valid.";
+          text.style.color = "#00ff00";
+  
+      }
+      else
+      {
+          form.classList.remove("valid");
+          form.classList.add("invalid");
+          text.innerHTML = "Please Enter Valid Email Address.";
+          text.style.color = "#ff0000";
+      }
+      if (email == "")
+      {
+          form.classList.remove("valid");
+          form.classList.remove("invalid");
+          text.innerHTML = "";
+          text.style.color = "#00ff00";
+  
+      }
+  }
+  </script>
+</body>
+</html>
