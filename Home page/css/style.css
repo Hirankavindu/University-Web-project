@@ -18,6 +18,11 @@ header{
     transition: 0.5s ease;
 }
 
+header img {
+  width: 150px;
+  cursor: pointer;
+}
+
 header .brand{
     color: #fff;
     font-size: 2.5em;
