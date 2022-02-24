@@ -10,37 +10,37 @@
 <body>
     <div class="container">
       <div class="title">SIGN-UP</div>
-      <form action="#" id="form" method="post">
+      <form  name="form1" id="form" method="post" action="insert.php" >
         <div class="user-details">
           <div class="input-box">
             <span class="details">First Name</span>
-            <input type="text" placeholder="Enter Your First Name" class="type-box" required>
+            <input type="text" placeholder="Enter Your First Name" name="firstname" class="type-box" required>
           </div>
           <div class="input-box">
             <span class="details">Last Name</span>
-            <input type="text" placeholder="Enter Your Last Name" class="type-box" required>
+            <input type="text" placeholder="Enter Your Last Name" name="lastname" class="type-box" required>
           </div>
           <div class="input-box">
             <span class="details">User Name</span>
-            <input type="text" placeholder="Enter Your User Name" class="type-box" required>
+            <input type="text" placeholder="Enter Your User Name" name="username" class="type-box" required>
           </div>
           <div class="input-box">
             <span class="details">E-mail</span>
-            <input type="text" placeholder="Enter Your E-mail" onkeydown="validation()" id="email" class="type-box" required>
+            <input type="text" placeholder="Enter Your E-mail" name="email" onkeydown="validation()" id="email" class="type-box" required>
             <span id="text"></span>
           </div>
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="password" placeholder="Enter Your Strong Password" id="password" class="type-box" required>
+            <input type="password" placeholder="Enter Your Strong Password" name="password" id="password" class="type-box" required>
           </div>
           <div class="input-box">
             <span class="details">Comfirm Password</span>
-            <input type="password" placeholder="Comfirm Your Strong Password" id="password" class="type-box" required>
+            <input type="password" placeholder="Comfirm Your Strong Password" name="confirmpassword" id="password" class="type-box" required>
           </div>
         </div>
         
         <div class="button">
-          <input type="submit" value="Sign-Up">
+          <input type="submit" name="submit1" value="Sign-Up">
         </div>
       </form>
     </div>
