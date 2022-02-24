@@ -249,9 +249,9 @@
         </section>
 
         <section class="text-center gap">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nobis soluta iure aliquam et fuga dolorum
-                sapiente! Culpa repellendus libero eveniet, iste labore aliquam eaque dignissimos, vero animi nemo
-                temporibus? Dicta soluta at sequi necessitatibus quod, nobis quis quibusdam dolores!</p>
+            <p>to provide all residents with impartial and inclusive access to a wide range of information resources,
+                programs, equipment, and services in order to encourage literacy and lifelong learning and to support
+                educational, cultural, and recreational activities</p>
         </section>
 
     </div>
@@ -260,31 +260,31 @@
         <div class="inner-width">
             <h1>Our Team Members</h1>
             <div class="team-pics">
-                <img src="img/book1.jpg" alt="test-1" class="active">
-                <img src="img/book2.jpg" alt="test-2">
-                <img src="img/book3.jpg" alt="test-3">
-                <img src="img/book4.jpg" alt="test-4">
-                <img src="img/book5.jpg" alt="test-5">
+                <img src="img/hiran.jpg" alt="test-1" class="active">
+                <img src="img/yashod.jpeg" alt="test-2">
+                <img src="img/akash.jpeg" alt="test-3">
+                <img src="img/vishmi.jpeg" alt="test-4">
+                <img src="img/sachini.jpeg" alt="test-5">
             </div>
             <div class="team-contents">
                 <div class="team active" id="test-1">
-                    <span class="description">Hiran / Developer</span>
+                    <span class="description">O.H.K.V.M. Welagedara</span>
                 </div>
 
                 <div class="team" id="test-2">
-                    <span class="description">Yashod / Developer</span>
+                    <span class="description">D.Y.P.V. Mendis</span>
                 </div>
 
                 <div class="team" id="test-3">
-                    <span class="description">Akash / Developer</span>
+                    <span class="description">K.G.B. Akash</span>
                 </div>
 
                 <div class="team" id="test-4">
-                    <span class="description">Wishmi / Developer</span>
+                    <span class="description">M.G.V.N. Jayawickrama</span>
                 </div>
 
                 <div class="team" id="test-5">
-                    <span class="description">Sachini / Developer</span>
+                    <span class="description">N.S. Anjana</span>
                 </div>
 
             </div>
