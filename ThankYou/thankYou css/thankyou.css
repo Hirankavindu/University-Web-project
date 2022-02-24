@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.thankYouArea{
+    margin: 200px 400px ;
+    width: 50%;
+}
+.thankYouArea h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+.thankYouArea h1 .textE{
+    color: crimson;
+    font-size: 50px;
+}
+.thankYouArea h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: x-large;
+}
+.BLbtn{
+    text-align: center;
+}
+.BLbtn button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 350px;
+    background-color: rgb(248, 217, 176);
+    border: none;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+.thankYouArea .BLbtn button:hover{
+	background: rgb(247, 195, 128);
+}
