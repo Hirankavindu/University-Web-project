@@ -14,7 +14,7 @@ body{
     background-color: rgba(0, 0, 0, 0);
 
     animation-name: animate;
-    animation-direction:unset;
+    animation-direction:alternate;
     animation-duration: 30s;
     animation-fill-mode: forwards;
     animation-iteration-count:infinite;

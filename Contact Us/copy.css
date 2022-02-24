@@ -177,7 +177,7 @@ section i{
 @media screen and (max-width: 900px){
   body{
   background-repeat: repeat-y;
-  overflow: auto;
+  overflow:auto;
  }
   .headrer{
   position: absolute;
