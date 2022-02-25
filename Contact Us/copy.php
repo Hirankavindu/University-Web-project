@@ -18,7 +18,8 @@
       }
 
       $to= "edu4u2022@gmail.com";
-      
+      // E-mail- edu4u2022@gmail.com   --|__  you can refer the e-mails!
+      //password- Yri3$mgv             --|
   }
 ?>
   <!DOCTYPE html>
